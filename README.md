@@ -12,13 +12,13 @@ Colar o código</br>
 Executar no terminal o comando - npx playwright test ConsultaCep.spec.js --headed</br>
 
 
-Recomendo que no arquivo playwright.config.js remova os outros executores e deixe apena o chromium
-Fica assim  /* Configure projects for major browsers */
-  projects: [
-    {
-      name: 'chromium',
-      use: {
-        ...devices['Desktop Chrome'],
-      }
-    }
-  ],
+Recomendo que no arquivo playwright.config.js remova os outros executores e deixe apena o chromium</br>
+Fica assim  /* Configure projects for major browsers */</br>
+  projects: [</br>
+    {</br>
+      name: 'chromium',</br>
+      use: {</br>
+        ...devices['Desktop Chrome'],</br>
+      }</br>
+    }</br>
+  ],</br>
